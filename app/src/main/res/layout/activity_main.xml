@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.administrator.myapplication.MainActivity">
+<!--写完这个命名空间后,再写自定义属性会自动弹出xmlns:app="http://schemas.android.com/apk/res-auto"-->
+
+    <com.example.administrator.myapplication.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+         app:dr="150"
+        app:color="#fff"
+        app:radius="70"
+        android:background="#f00"
+        app:dc="@color/colorAccent"
+        app:content="我"
+        />
+
+   <!--  -->
+</RelativeLayout>

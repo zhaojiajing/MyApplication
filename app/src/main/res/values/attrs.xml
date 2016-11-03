@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="radius" format="float"/>
+    <attr name="dr" format="float"/>
+    <attr name="color" format="color"/>
+    <attr name="dc" format="color"/>
+    <attr name="content" format="string"/>
+<declare-styleable name="MyView">
+    <attr name="radius" />
+    <attr name="dr" />
+    <attr name="color" />
+    <attr name="dc"/>
+    <attr name="content"/>
+</declare-styleable>
+
+</resources>
